@@ -1,3 +1,8 @@
+#!/usr/bin/env python
+""" Implements generic caching as well as a caching decorator. """
+
+__author__ = "Johannes Stuettgen <johannes.stuettgen@gmail.com>"
+
 def lru_cache(func, maxsize=None):
     """ Decorator to use LRUCache on function arguments.
 
